@@ -1,9 +1,7 @@
 /*
- * IRremote: IRrecvDump - dump details of IR codes with IRrecv
- * An IR detector/demodulator must be connected to the input RECV_PIN.
- * Version 0.1 July, 2009
- * Copyright 2009 Ken Shirriff
- * http://arcfn.com
+ * Modified from an IRrecv demo from Ken Shirrif
+ * Reads light strike IR codes
+ * Sends codes formatted as [TEAM] [COUNT] [WEAPON] on serial input
  */
 #include <IRremote.h>
 
